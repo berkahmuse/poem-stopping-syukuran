@@ -2,6 +2,9 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output.
+// The piece frames halting as deliberate strength: a hand that withdraws on purpose,
+// keeping what matters instead of spending itself chasing more.
+// Checked twice locally before this edit — both runs wrote the same bytes.
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
 const TEXT = `The hand that stops reaching

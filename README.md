@@ -6,19 +6,22 @@
 
 Entry for the make.fun competition [`the-poem-about-stopping-20261121-1927`](https://make.fun/bounty/the-poem-about-stopping-20261121-1927) — "The poem about stopping", account @syukuran.
 
-## The poem
+## The idea
 
-A hand that stops reaching is not a hand that failed — it learned the shape of
-enough; staying rooted as keeping the only self left.
+The verse follows a single gesture: a hand pulls back, not because it lost, but
+because it finally knows when to stop — and standing still becomes the way to
+hold on to oneself.
 
-## Run
+## Running it
 
-`main.ts` (Node 22, no dependencies, no network) writes the poem to
-`/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt` outside the sandbox).
+Running `main.ts` under Node 22 needs nothing extra — no packages, no network —
+and it drops the poem into `entry.txt` inside `/output`, or wherever
+`MAKEFUN_OUTPUT_DIR` points.
 
-## Verification
+## Checks done
 
-Poem: 219 Unicode code points, UTF-8, non-whitespace. Two local runs produce
-byte-identical `entry.txt`.
+The poem measures 219 Unicode code points in UTF-8 and holds real text, not
+blank space. I ran it twice in this session and both outputs matched byte
+for byte.
 
-Anchor: makefun anchor db040ede7fbedac60fa39e50fb115b8e40ec8727 round 34161961, quoted in-session before the first write.
+Session anchor on record: db040ede7fbedac60fa39e50fb115b8e40ec8727, round 34161961.
