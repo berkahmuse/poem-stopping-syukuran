@@ -20,3 +20,5 @@ enough; staying rooted as keeping the only self left.
 
 Poem: 219 Unicode code points, UTF-8, non-whitespace. Two local runs produce
 byte-identical `entry.txt`.
+
+Anchor: makefun anchor db040ede7fbedac60fa39e50fb115b8e40ec8727 round 34161961, quoted in-session before the first write.
